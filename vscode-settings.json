@@ -3,7 +3,7 @@
     "workbench.iconTheme": "symbols",
     "window.commandCenter": false,
     "workbench.layoutControl.enabled": false,
-    "workbench.colorTheme": "Visual Studio Dark",
+    "workbench.colorTheme": "Default Dark+",
 
     "window.zoomLevel": -1,
     "editor.fontSize": 13,
@@ -16,7 +16,6 @@
     "workbench.editor.labelFormat": "short",
     "explorer.compactFolders": false,
     "editor.semanticHighlighting.enabled": false,
-    "breadcrumbs.enabled": false,
     "workbench.activityBar.location": "hidden",
     "editor.minimap.enabled": false,
     "editor.scrollbar.vertical": "hidden",
@@ -69,4 +68,22 @@
             "value": "#42b883"
         }
     ],
+    "gitlens.views.scm.grouped.views": {
+        "commits": false,
+        "branches": false,
+        "remotes": false,
+        "stashes": false,
+        "tags": false,
+        "worktrees": false,
+        "contributors": false,
+        "repositories": false,
+        "searchAndCompare": false,
+        "launchpad": false
+    },
+    "redhat.telemetry.enabled": true,
+    "git.autofetch": true,
+    "[json]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "diffEditor.codeLens": true,
 }
